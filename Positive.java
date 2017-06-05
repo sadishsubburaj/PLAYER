@@ -8,9 +8,9 @@ public class Positive
       number=p.nextInt();
       if(number==0)
       System.out.print("ZERO");
-      else if(number%2==0)
-      System.out.print("EVEN");
+      else if(number>0)
+      System.out.print("POSITIVE");
       else
-      System.out.print("ODD");
+      System.out.print("NEGATIVE");
    }
 }
