@@ -14,8 +14,13 @@ public class Least
          n=n/10;
        }  
        Arrays.sort(a,0,i);
+    if(k<i)
+    {
        for(j=0;j<i-k;j++)
         System.out.print(a[j]);
+    }
+    else
+      System.out.print("INVALID INPUT");
   }
   
 }
